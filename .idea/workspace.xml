@@ -1,31 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eee73bb7-a8e3-46f6-8d43-6345d40839d5" name="Changes" comment="dsadadsadsadslpaigsdkdfsadasdddd" />
+    <list default="true" id="eee73bb7-a8e3-46f6-8d43-6345d40839d5" name="Changes" comment="Start Project UP">
+      <change afterPath="$PROJECT_DIR$/lib/generators/active_scrape/templates/create_scrape_data.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/generators/active_scrape/templates/scrape.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/active_scrape/scrape_data_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/active_scrape.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/active_scrape.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_scrape.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/active_scrape.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/active_scrape.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/active_scrape.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/active_scrape_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/assets/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/controllers/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/models/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/bin/rails" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/bin/rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/initializers/content_security_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/initializers/permissions_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/config/storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/lib/assets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/log/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dummy/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/navigation_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generators/active_scrape/install_generator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "andersmarkc"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;andersmarkc&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:andersmarkc/active_scrape.git",
-    "accountId": "ec2c89f1-0b60-432a-a90c-d3724e5e48f9"
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="amj/start_up_version" />
+                    <option name="lastUsedInstant" value="1731069000" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1731068999" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:andersmarkc/active_scrape.git&quot;,
+    &quot;accountId&quot;: &quot;ec2c89f1-0b60-432a-a90c-d3724e5e48f9&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2oZ0cyqG7iPTjr1SSIkCyW2hCa6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,13 +134,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/aj/RubymineProjects/active_scrape",
+    "git-widget-placeholder": "amj/start__up__version",
+    "last_opened_file_path": "/home/aj/RubymineProjects/active_scrape/lib/generators/active_scrape/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ruby.structure.view.model.defaults.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/generators/active_scrape/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/models" />
+    </key>
+  </component>
   <component name="RunManager" selected="Rails.active_scrape">
     <configuration name="active_scrape" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="active_scrape" />
@@ -135,10 +247,32 @@
       <option name="presentableId" value="Default" />
       <updated>1731061873554</updated>
       <workItem from="1731061874757" duration="130000" />
+      <workItem from="1731062020904" duration="5109000" />
     </task>
+    <task id="LOCAL-00001" summary="Start Project UP">
+      <option name="closed" value="true" />
+      <created>1731062039187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731062039187</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Start Project UP">
+      <option name="closed" value="true" />
+      <created>1731062059080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731062059080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start Project UP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start Project UP" />
   </component>
 </project>
