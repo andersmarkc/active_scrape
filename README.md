@@ -1,6 +1,9 @@
 # ActiveScrape
 Short description and motivation.
 
+# Guide ME
+RAILS_ENV=test rails generate active_scrape:install
+
 ## Usage
 How to use my plugin.
 

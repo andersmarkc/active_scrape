@@ -2,13 +2,13 @@
 require 'rails_helper'
 
 RSpec.describe ActiveScrape::ScrapeData, type: :model do
-  describe 'Validations' do
-    it 'saves valid scrape data' do
-      data = ActiveScrape::ScrapeData.new(
-        data: { key: 'value' },
-        scraped_at: Time.current
-      )
-      expect(data.save).to be true
-    end
+  include ActionDispatch::TestProcess::FixtureFile
+
+  it 'saves valid scrape data' do
+    data = described_class.new(
+      data: { key: 'value' },
+      scraped_at: Time.current
+    )
+    expect(data.save).to be true
   end
 end

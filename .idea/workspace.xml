@@ -7,18 +7,22 @@
     <list default="true" id="eee73bb7-a8e3-46f6-8d43-6345d40839d5" name="Changes" comment="Start Project UP">
       <change beforePath="$PROJECT_DIR$/.idea/active_scrape.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/active_scrape.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/generators/active_scrape/templates/scrape.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generators/active_scrape/templates/scrape.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/dummy/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/spec/dummy/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/generators/active_scrape/install_generator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generators/active_scrape/install_generator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/db/development.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/db/test.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/log/development.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/log/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/storage/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/tmp/local_secret.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/tmp/pids/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/tmp/storage/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/models/active_scrape/scrape_data_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/active_scrape/scrape_data_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/active_scrape_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/controllers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/active_scrape/scrape_data.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/helpers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/integration/navigation_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/models/scrape_data_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/test/test_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "amj/start__up__version",
-    "last_opened_file_path": "/home/aj/RubymineProjects/active_scrape/lib/generators/active_scrape/templates",
+    "last_opened_file_path": "/home/aj/RubymineProjects/active_scrape/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,9 +102,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/lib/generators/active_scrape/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec" />
       <recent name="$PROJECT_DIR$/test/models" />
     </key>
   </component>
@@ -198,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731061873554</updated>
       <workItem from="1731061874757" duration="130000" />
-      <workItem from="1731062020904" duration="6973000" />
+      <workItem from="1731062020904" duration="9004000" />
     </task>
     <task id="LOCAL-00001" summary="Start Project UP">
       <option name="closed" value="true" />
@@ -224,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731069022984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Start Project UP">
+      <option name="closed" value="true" />
+      <created>1731071902498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731071902498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -82,6 +82,7 @@ GEM
     benchmark (0.4.0)
     bigdecimal (3.1.8)
     builder (3.3.0)
+    byebug (11.1.3)
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
     crass (1.0.6)
@@ -232,6 +233,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_scrape!
+  byebug
   httparty
   nokogiri
   puma

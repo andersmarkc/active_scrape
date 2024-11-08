@@ -18,4 +18,5 @@ gem "selenium-webdriver"
 
 group :development, :test do
   gem 'rspec-rails', '~> 5.1' # Use the latest compatible version with your Rails version
+  gem 'byebug'
 end
