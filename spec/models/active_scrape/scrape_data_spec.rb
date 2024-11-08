@@ -1,5 +1,4 @@
 # spec/models/active_scrape/scrape_data_spec.rb
-
 require 'rails_helper'
 
 RSpec.describe ActiveScrape::ScrapeData, type: :model do
